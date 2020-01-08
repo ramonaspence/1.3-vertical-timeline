@@ -7,18 +7,42 @@ body {
   background-color: #A9A9A9;
 }
 
+h1 {
+  text-align: left;
+}
+
 .container {
   width: 1200px;
   background-color: #A9A9A9;
   margin: 0 auto;
   text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
 
 }
 
 .timeline-item {
-  width: 360px;
+  width: 500px;
   background-color: white;
   min-height: 250px;
-
   border: solid 2px black;
+  position: relative;
+  left: 50px;
+  margin-bottom: 75px;
+  padding: 0 5px;
+}
+
+img {
+  position: relative;
+  width: 498px;
+  right: 5px;
+
+}
+.timeline-item:nth-child(2n) {
+  left: 750px;
+}
+
+.timeline-item > h1:nth-child(2n) {
+  color: white;
+  position: 
 }
