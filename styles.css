@@ -20,6 +20,11 @@ p {
   text-align: left;
 
 }
+
+.timeline-item:hover {
+  transition: 
+
+}
 .container {
   width: 1200px;
   background-color: #A9A9A9;
