@@ -2,24 +2,15 @@
   box-sizing: border-box
 }
 
-.container {
-  background-color: blue;
-  position: relative;
-  margin: 0 auto;
-  
-}
-@keyframes slide-left {
-  0% {
-    transform: translateX(100px)
-  }
-  60% {
-
-  }
-  100% {
-    transform: translateX(0)
-  }
+img {
+  width: 100%;
 }
 
-.slide-left {
-  animation: slide-left 2s;
+ul {
+  padding: 0;
+}
+
+body {
+  columns: auto 100px auto 3;
+  background-color: #A9A9A9;
 }
