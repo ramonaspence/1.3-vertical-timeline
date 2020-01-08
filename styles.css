@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box
+}
+
+.container {
+  background-color: blue;
+  position: relative;
+  margin: 0 auto;
+  
+}
+@keyframes slide-left {
+  0% {
+    transform: translateX(100px)
+  }
+  60% {
+
+  }
+  100% {
+    transform: translateX(0)
+  }
+}
+
+.slide-left {
+  animation: slide-left 2s;
+}
