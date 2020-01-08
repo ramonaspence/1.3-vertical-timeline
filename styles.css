@@ -67,12 +67,27 @@ p {
 .more-button {
   background-color: #006389;
   color: white;
+  font-size: 18px;
+  margin: 5px 10px 5px 10px;
+  position: absolute;
+  bottom: 15px; right: 15px;
 }
+
+.more-button2 {
+  background-color: #006389;
+  color: white;
+  font-size: 16px;
+  padding: 3px 5px;
+  position: absolute;
+  bottom: 1px; left: 15px;
+}
+
 
 .timeline-item:nth-child(2n) {
   left: 750px;
   border-radius: 5px;
   box-shadow: 0px 5px 5px gray;
+
 
 
 }
