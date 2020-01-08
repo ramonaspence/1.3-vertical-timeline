@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box
+  box-sizing: border-box;
+
 }
 
 body {
@@ -7,8 +8,31 @@ body {
 }
 
 .container {
-  width: 80%;
-  height: 900px;
+  width: 800px;
+  height: 800px;
   background-color: black;
   margin: 0 auto;
+  text-align: center;
+
+}
+
+.column-main {
+  display: inline-block;
+  width: 360px;
+  height: 100%;
+  background-color: green;
+}
+
+.divider {
+  display: inline-block;
+  width: 60px;
+  height: 100%;
+  background-color: purple;
+}
+
+.column-opt {
+  display: inline-block;
+  width: 360px;
+  height: 100%;
+  background-color: pink;
 }
