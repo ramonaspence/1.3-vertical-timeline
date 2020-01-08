@@ -8,31 +8,17 @@ body {
 }
 
 .container {
-  width: 800px;
-  height: 800px;
-  background-color: black;
+  width: 1200px;
+  background-color: #A9A9A9;
   margin: 0 auto;
   text-align: center;
 
 }
 
-.column-main {
-  display: inline-block;
+.timeline-item {
   width: 360px;
-  height: 100%;
-  background-color: green;
-}
+  background-color: white;
+  min-height: 250px;
 
-.divider {
-  display: inline-block;
-  width: 60px;
-  height: 100%;
-  background-color: purple;
-}
-
-.column-opt {
-  display: inline-block;
-  width: 360px;
-  height: 100%;
-  background-color: pink;
+  border: solid 2px black;
 }
