@@ -2,15 +2,13 @@
   box-sizing: border-box
 }
 
-img {
-  width: 100%;
-}
-
-ul {
-  padding: 0;
-}
-
 body {
-  columns: auto 100px auto 3;
   background-color: #A9A9A9;
+}
+
+.container {
+  width: 80%;
+  height: 900px;
+  background-color: black;
+  margin: 0 auto;
 }
