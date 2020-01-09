@@ -19,10 +19,6 @@ p {
   text-align: left;
 }
 
-.timeline-item:hover {
-  transition:
-}
-
 .container {
   width: 1200px;
   background-color: #A9A9A9;
@@ -33,15 +29,6 @@ p {
 }
 
 /* ---pencils--- */
-i::before {
-  content= '';
-  width: 0px;
-  height: 450px;
-  border: 4px solid #006389;
-  position: absolute;
-
-}
-
 i {
   position: relative;
   color: white;
@@ -50,6 +37,27 @@ i {
   border-radius: 50%;
 
 }
+
+i::before {
+  content= '';
+  width: 0px;
+  height: 450px;
+  border-left: 4px solid #006389;
+  border-right: 4px solid #006389;
+  position: absolute;
+  right: -1px;
+  top: -10px;
+
+}
+
+/* i {
+  position: relative;
+  color: white;
+  background-color: #006389;
+  border: 12px solid #006389;
+  border-radius: 50%;
+
+} */
 
 
 .timeline-item::after {
