@@ -168,7 +168,18 @@ p {
   text-align: center;
   font-family: sans-serif;
   font-size: 14px;
+  position: relative;
 
+}
+
+.container::before {
+  content: '';
+  background: #006389;
+  width: 5px;
+  height: 95%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .timeline-item {
@@ -204,9 +215,14 @@ p {
 
 }
 
+i::before {
+
+
+}
+
 i {
   position: relative;
-  right: 50px;
+  left: 0px;
   background-color: #006389;
   color: white;
   border: 9px solid #006389;
